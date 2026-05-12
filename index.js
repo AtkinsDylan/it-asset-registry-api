@@ -6,9 +6,13 @@ app.use(express.json());
 
 const assetsRouter = require('./src/routes/assets');
 const auditLogRouter = require('./src/routes/auditLog');
+const usersRouter = require('./src/routes/users');
+const departmentsRouter = require('./src/routes/departments');
 
 app.use('/assets', assetsRouter);
 app.use('/audit-log', auditLogRouter);
+app.use('/users', usersRouter);
+app.use('/departments', departmentsRouter);
 
 const port = process.env.PORT || 3000;
 
