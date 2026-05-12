@@ -1,0 +1,22 @@
+{
+  "name": "it-asset-registry-api",
+  "version": "1.0.0",
+  "description": "RESTful API for managing IT assets built with Node.js Express and PostgreSQL",
+  "homepage": "https://github.com/AtkinsDylan/it-asset-registry-api#readme",
+  "bugs": {
+    "url": "https://github.com/AtkinsDylan/it-asset-registry-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtkinsDylan/it-asset-registry-api.git"
+  },
+  "license": "ISC",
+  "author": "Dylan Atkins",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
