@@ -5,7 +5,10 @@ require('dotenv').config();
 app.use(express.json());
 
 const assetsRouter = require('./src/routes/assets');
+const auditLogRouter = require('./src/routes/auditLog');
+
 app.use('/assets', assetsRouter);
+app.use('/audit-log', auditLogRouter);
 
 const port = process.env.PORT || 3000;
 
